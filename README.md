@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="Example" src="./assets/example.png" width="100%">
+  <img alt="Example" src="./assets/example.gif" width="100%">
 </p>
 
 ## 🚀 Tecnologias

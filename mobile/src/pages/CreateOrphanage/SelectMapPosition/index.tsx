@@ -3,7 +3,7 @@ import { View, Text } from "react-native";
 
 import { useNavigation } from "@react-navigation/native";
 import { RectButton } from "react-native-gesture-handler";
-import MapView, { Marker, MapEvent } from "react-native-maps";
+import MapView, { Marker, MapEvent, PROVIDER_GOOGLE } from "react-native-maps";
 
 import mapMarkerImg from "../../../assets/images/map_marker.png";
 
@@ -24,9 +24,10 @@ export default function SelectMapPosition() {
   return (
     <View style={styles.container}>
       <MapView
+        provider={PROVIDER_GOOGLE}
         initialRegion={{
-          latitude: -27.2092052,
-          longitude: -49.6401092,
+          latitude: -27.1129685,
+          longitude: -52.6041486,
           latitudeDelta: 0.008,
           longitudeDelta: 0.008,
         }}
